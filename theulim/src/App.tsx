@@ -1,10 +1,10 @@
 import './App.css';
+import Kimtaeju from './kimtaeju/kimtaeju';
 function App() {
-  return (
-    <div className="App">
-      김태주 피파 개못
-    </div>
-  );
+  return;
+  <div>
+    <Kimtaeju></Kimtaeju>
+  </div>;
 }
 
 export default App;
