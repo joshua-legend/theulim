@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+/* Box Sizing Reset */
+html {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Remove default margin and padding for most elements */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, dl, dt, dd, img, figure, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Apply a background to the body */
+body {
+  background: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Set default font family, size, and color */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Set a base line-height */
+body {
+  line-height: 1.5;
+}
+
+/* Make images and embedded media responsive */
+img, video, audio, object, embed, iframe {
+  max-width: 100%;
+}
+
+/* Make lists appear without bullets or numbers */
+ul, ol {
+  list-style: none;
+}
+
+/* Reset form element styles */
+input, select, textarea, button {
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: 0;
+}
+
+/* Set anchor elements to not have underlines and to match body text color */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Set table elements to collapse borders */
+table {
+  border-collapse: collapse;
+}
+
+/* Apply a more readable selection color */
+::selection {
+  background: #ffbf00;
+  color: #000;
 }
