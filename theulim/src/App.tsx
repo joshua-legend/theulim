@@ -1,10 +1,14 @@
 import './App.css';
-import Kimtaeju from './kimtaeju/kimtaeju';
+import ColorBox from './components/storyboard/kimtaeju/ColorBox';
+import Title from './components/storyboard/kimtaeju/title';
 function App() {
-  return;
-  <div>
-    <Kimtaeju></Kimtaeju>
-  </div>;
+  const arrangement: React.CSSProperties = {
+    display: `flex`,
+    justifyContent: 'space-evenly',
+    width: '100%',
+    marginBottom: '5%',
+  };
+  return <></>;
 }
 
 export default App;
