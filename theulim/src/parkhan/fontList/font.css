@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "NanumBarunpen";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.NanumBarunpenL {
+  font-family: NanumBarunpen;
+  font-size: 54px;
+}
+
+.NanumBarunpenM {
+  font-family: NanumBarunpen;
+  font-size: 36px;
+}
+
+.NanumBarunpenS {
+  font-family: NanumBarunpen;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "KBIZHanmaumMyungjo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/KBIZHanmaumMyungjo.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.KBIZHanmaumMyungjoL {
+  font-family: KBIZHanmaumMyungjo;
+  font-size: 54px;
+}
+
+.KBIZHanmaumMyungjoM {
+  font-family: KBIZHanmaumMyungjo;
+  font-size: 36px;
+}
+
+.KBIZHanmaumMyungjoS {
+  font-family: KBIZHanmaumMyungjo;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "KyoboHandwriting2021sjy";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KyoboHandwriting2021sjy.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.KyoboHandwriting2021sjyL {
+  font-family: KyoboHandwriting2021sjy;
+  font-size: 54px;
+}
+
+.KyoboHandwriting2021sjyM {
+  font-family: KyoboHandwriting2021sjy;
+  font-size: 36px;
+}
+
+.KyoboHandwriting2021sjyS {
+  font-family: KyoboHandwriting2021sjy;
+  font-size: 16px;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+.jejugothicL {
+  font-family: "Jeju Gothic", sans-serif;
+  font-size: 54px;
+}
+
+.jejugothicM {
+  font-family: "Jeju Gothic", sans-serif;
+  font-size: 36px;
+}
+
+.jejugothicS {
+  font-family: "Jeju Gothic", sans-serif;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "GangwonState";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/GangwonState.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.GangwonStateL {
+  font-family: GangwonState;
+  font-size: 54px;
+}
+
+.GangwonStateM {
+  font-family: GangwonState;
+  font-size: 36px;
+}
+
+.GangwonStateS {
+  font-family: GangwonState;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: "NotoSerifKR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.NotoSerifKRL {
+  font-family: NotoSerifKR;
+  font-size: 54px;
+}
+
+.NotoSerifKRM {
+  font-family: NotoSerifKR;
+  font-size: 36px;
+}
+
+.NotoSerifKRS {
+  font-family: NotoSerifKR;
+  font-size: 16px;
+}
