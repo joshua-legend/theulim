@@ -1,5 +1,4 @@
 import React from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
 
 const buttonBoxStyle: React.CSSProperties = {
   width: '100%',
@@ -8,7 +7,9 @@ const buttonBoxStyle: React.CSSProperties = {
   display: 'flex',
   justifyContent: 'center',
   gap: '10px',
-  marginTop: '5px',
+  marginTop: '10px',
+  animation: 'slideDown 1s forwards',
+  opacity: '1',
 };
 
 const buttonStyle: React.CSSProperties = {

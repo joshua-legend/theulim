@@ -14,6 +14,8 @@
     width: 100%;
     display: flex;
     padding: 25px;
+    animation: slideDown 1s forwards;
+    opacity: 1;
   }
 
   .logo {
@@ -27,10 +29,22 @@
     align-items: center;
     padding: 0px 25px;
     margin-top: 35px;
+    animation: slideDown 1s forwards;
+    opacity: 1;
   }
 
   .introduce {
     font-family: NotoSerifKR;
     font-size: 25px;
+  }
+
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 }

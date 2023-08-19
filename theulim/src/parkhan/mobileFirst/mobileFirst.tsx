@@ -2,6 +2,7 @@ import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import './mobileFirst.css';
 import MobileFirstButtons from '../firstPageButtons/firstPageButtons';
+import MobileSecond from '../mobileSecond/mobileSecond';
 
 const MobileFirst = () => {
   return (
@@ -16,6 +17,7 @@ const MobileFirst = () => {
         </div>
         <MobileFirstButtons></MobileFirstButtons>
       </div>
+      <MobileSecond></MobileSecond>
     </>
   );
 };
