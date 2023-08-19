@@ -11,7 +11,7 @@ const ColorBox = ({ Hex }: colorproups) => {
     <div>
       <div>
         <div style={boxstyle}></div>
-        <span>color: {Hex}</span>
+        <span>Hex: {Hex}</span>
       </div>
     </div>
   );
