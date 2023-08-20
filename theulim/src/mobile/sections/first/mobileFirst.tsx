@@ -1,8 +1,8 @@
 import React from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 import './mobileFirst.css';
-import MobileFirstButtons from '../firstPageButtons/firstPageButtons';
-import MobileSecond from '../mobileSecond/mobileSecond';
+import MobileFirstButtons from '../../../parkhan/firstPageButtons/firstPageButtons';
+import MobileSecond from '../../../parkhan/mobileSecond/mobileSecond';
 
 const MobileFirst = () => {
   return (
