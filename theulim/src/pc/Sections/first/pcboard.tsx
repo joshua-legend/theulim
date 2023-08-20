@@ -1,81 +1,19 @@
-import './../../parkhan/fontList/font.css';
+import {
+  apple,
+  google,
+  headerstyle,
+  iconstyle,
+  maindisplayarrangement,
+  maindisplayfontstyle1,
+  maindisplayfontstyle2,
+  maindisplaystyle,
+  seconddisplayarrangement,
+  storearrangemant,
+  theulimscolor,
+  theulimstyle2,
+} from './firstCss';
 
 const Pcboard = () => {
-  const maindisplaystyle: React.CSSProperties = {
-    width: '100vw',
-    height: '100vh',
-    backgroundImage: "url('img3.jpg')",
-    backgroundSize: 'cover',
-    backgroundRepeat: 'no-repeat',
-  };
-  const maindisplayfontstyle1: React.CSSProperties = {
-    fontWeight: '800',
-    fontSize: '55px',
-    color: 'white',
-    display: 'flex',
-    justifyContent: 'center',
-    marginTop: '8%',
-  };
-  const maindisplayfontstyle2: React.CSSProperties = {
-    fontWeight: '800',
-    fontSize: '55px',
-    color: 'white',
-    display: 'flex',
-    justifyContent: 'center',
-  };
-  const maindisplayarrangement: React.CSSProperties = {
-    width: '100%',
-    height: '100%',
-    display: 'flex',
-    flexDirection: 'column',
-  };
-  const seconddisplayarrangement: React.CSSProperties = {
-    width: '100%',
-    height: '100%',
-    display: 'flex',
-    backgroundColor: 'black',
-  };
-  const theulimscolor: React.CSSProperties = {
-    color: '#2c7d52',
-  };
-  const headerstyle: React.CSSProperties = {
-    width: '100%',
-    height: '5%',
-    display: 'flex',
-    alignItems: 'center',
-    backgroundColor: 'rgba(0,0,0,0.15)',
-  };
-  const theulimstyle2: React.CSSProperties = {
-    color: '#2c7d52',
-    marginLeft: '3%',
-  };
-  const iconstyle: React.CSSProperties = {
-    width: '20px',
-    height: '20px',
-  };
-  const google: React.CSSProperties = {
-    display: 'flex',
-    backgroundColor: 'white',
-    borderRadius: '30px',
-    width: 'fit-content',
-    padding: '25px',
-    marginRight: '20px',
-  };
-  const apple: React.CSSProperties = {
-    display: 'flex',
-    backgroundColor: 'white',
-    borderRadius: '30px',
-    width: 'fit-content',
-    padding: '25px',
-    marginLeft: '20px',
-  };
-  const storearrangemant: React.CSSProperties = {
-    width: '100%',
-    display: 'flex',
-    justifyContent: 'center',
-    marginTop: '1%',
-  };
-
   return (
     <div style={maindisplaystyle}>
       <div style={headerstyle}>
