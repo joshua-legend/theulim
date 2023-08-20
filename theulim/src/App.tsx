@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import FontList from './parkhan/fontList/font';
 import ToneAndManner from './design/color';
 import MobileFirst from './parkhan/mobileFirst/mobileFirst';
-import Pcboard from './components/pcboard/pcboard';
+import Pcboard from './pc/Sections/first/pcboard';
 function App() {
   return (
     <div>
