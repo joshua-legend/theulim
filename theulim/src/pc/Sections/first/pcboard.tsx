@@ -79,7 +79,7 @@ const Pcboard = () => {
   return (
     <div style={maindisplaystyle}>
       <div style={headerstyle}>
-        <h2 style={theulimstyle2}>더올림</h2>
+        <h2 style={theulimstyle2}>더울림</h2>
       </div>
       <div style={maindisplayarrangement}>
         <h1 className="NotoSerifKR" style={maindisplayfontstyle1}>
