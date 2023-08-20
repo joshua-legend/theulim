@@ -2,13 +2,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import FontList from './design/font/font';
 import ToneAndManner from './design/color';
-<<<<<<< HEAD
 import MobileFirst from './mobile/sections/first/mobileFirst';
-import Pcboard from './components/pcboard/pcboard';
-=======
-import MobileFirst from './parkhan/mobileFirst/mobileFirst';
 import Pcboard from './pc/Sections/first/pcboard';
->>>>>>> 6887f394414161d8f7ac67ce62efda120c500642
 function App() {
   return (
     <div>
