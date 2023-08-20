@@ -26,7 +26,7 @@ const iconStyle: React.CSSProperties = {
   height: '20px',
 };
 
-const MobileFirstButtons = () => {
+const DownloadButton = () => {
   return (
     <>
       <div style={buttonBoxStyle}>
@@ -44,4 +44,4 @@ const MobileFirstButtons = () => {
   );
 };
 
-export default MobileFirstButtons;
+export default DownloadButton;

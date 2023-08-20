@@ -2,8 +2,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import FontList from './design/font/font';
 import ToneAndManner from './design/color';
-import Pcboard from './pc/Sections/first/pcboard';
 import MobileFirst from './mobile/sections/first/mobileFirst';
+import Pcboard from './pc/Sections/first/pcboard';
 function App() {
   return (
     <div>
