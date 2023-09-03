@@ -13,6 +13,7 @@ const buttonBoxStyle: React.CSSProperties = {
 };
 
 const buttonStyle: React.CSSProperties = {
+  cursor: 'pointer',
   width: '124px',
   height: '100%',
   display: 'flex',
