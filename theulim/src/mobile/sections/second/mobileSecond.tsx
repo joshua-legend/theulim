@@ -1,7 +1,16 @@
 import React from 'react';
+import './mobileSecond.css';
 type componentProps = {
   children?: React.ReactNode;
 };
+
+const textBoxStyle: React.CSSProperties = {
+  display: 'flex',
+  marginBottom: '50px',
+  flexDirection: 'column',
+  alignItems: 'center',
+};
+
 const secondSectionStyle: React.CSSProperties = {
   display: 'flex',
   flexDirection: 'column',
@@ -17,9 +26,7 @@ const introduceBoxStyle: React.CSSProperties = {
   flexDirection: 'column',
   alignItems: 'center',
   padding: '0 20px',
-
   width: '100%',
-
   opacity: '1',
 };
 
@@ -32,12 +39,13 @@ const indtroduceStyle: React.CSSProperties = {
 const MobileSecond = ({ children }: componentProps) => {
   return (
     <>
-      <div>
-        <div style={secondSectionStyle}>
-          <span style={indtroduceStyle}>행사의 성공을 판촉물로 만들다 </span>
+      <div style={secondSectionStyle}>
+        <div style={textBoxStyle} className="heading">
+          <span style={indtroduceStyle}>행사의 성공을 판촉물로 만들다</span>
           <span style={indtroduceStyle}>완벽한 광고대행 서비스</span>
-          <div style={introduceBoxStyle}>{children}</div>
         </div>
+
+        <div style={introduceBoxStyle}>{children}</div>
       </div>
     </>
   );

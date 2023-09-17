@@ -1,0 +1,20 @@
+.heading::before,
+.heading::after {
+  content: '';
+  width: 30px;
+  height: 30px;
+}
+
+.heading::before {
+  margin: -80px 0 0 0;
+  border-top: 15px solid #e5c046;
+  border-left: 15px solid #c4900a;
+  margin-right: 320px;
+}
+
+.heading::after {
+  margin: 0 0 -80px 30px;
+  border-right: 15px solid #e5c046;
+  border-bottom: 15px solid #c4900a;
+  margin-left: 320px;
+}

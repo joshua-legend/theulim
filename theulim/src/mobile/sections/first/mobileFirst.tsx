@@ -1,12 +1,12 @@
 import React from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
 import './mobileFirst.css';
-import DownloadButton from '../../../components/buttons/downloadButtons/downloadButton';
-import styled, { keyframes } from 'styled-components';
-import { useMediaQuery } from 'react-responsive';
-import { url } from 'inspector';
-import MobileSecond from '../second/mobileSecond';
-import SummaryCard from '../../../components/Summary/SummaryCard';
+// import { AiOutlineMenu } from 'react-icons/ai';
+// import DownloadButton from '../../../components/buttons/downloadButtons/downloadButton';
+// import styled, { keyframes } from 'styled-components';
+// import { useMediaQuery } from 'react-responsive';
+// import { url } from 'inspector';
+// import MobileSecond from '../second/mobileSecond';
+// import SummaryCard from '../../../components/Summary/SummaryCard';
 
 // const slideDown = keyframes`
 //   from {
@@ -74,7 +74,9 @@ const MobileFirst = ({ children }: ButtontProps) => {
           <div style={logoStyle}>더울림</div>
         </div>
         <div style={introduceBoxStyle}>
-          <span style={indtroduceStyle}>더울림으로 모든 순간을</span>
+          <span className="introduceBox" style={indtroduceStyle}>
+            더울림으로 모든 순간을
+          </span>
           <span style={indtroduceStyle}>브랜드 스토리로 전환하세요</span>
         </div>
         {children}

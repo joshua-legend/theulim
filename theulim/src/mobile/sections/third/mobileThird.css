@@ -1,0 +1,23 @@
+.backgroundClip {
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../../../../public/shareOffice.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+  color: rgba(0 0 0 / 0);
+  font-size: 80px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.backgroundClip2 {
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(../../../../public/shareOffice.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% cover;
+  color: rgba(0 0 0 / 0);
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
