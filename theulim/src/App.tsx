@@ -8,16 +8,15 @@ import Pcboard from './pc/Sections/first/pcboard';
 function App() {
   return (
     <div>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/maindisplay" element={<Pcboard />}></Route>
           <Route path="/toneandmanner" element={<ToneAndManner />}></Route>
-          <Route path="/mobile" element={<Mobile />}></Route>
+          <Route path="/" element={<Mobile />}></Route>
           <Route path="/tonandmanner" element={<ToneAndManner />}></Route>
           <Route path="/fontlist" element={<FontList />}></Route>
         </Routes>
-      </BrowserRouter> */}
-      <Mobile />
+      </BrowserRouter>
     </div>
   );
 }
