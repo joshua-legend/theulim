@@ -8,7 +8,7 @@ import Pcboard from './pc/Sections/first/pcboard';
 function App() {
   return (
     <div>
-      {/* <BrowserRouter>
+      <BrowserRouter basename={'https://github.com/joshua-legend/theulims'}>
         <Routes>
           <Route path="/maindisplay" element={<Pcboard />}></Route>
           <Route path="/toneandmanner" element={<ToneAndManner />}></Route>
@@ -16,8 +16,7 @@ function App() {
           <Route path="/tonandmanner" element={<ToneAndManner />}></Route>
           <Route path="/fontlist" element={<FontList />}></Route>
         </Routes>
-      </BrowserRouter> */}
-      <Mobile />
+      </BrowserRouter>
     </div>
   );
 }
